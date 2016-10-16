@@ -1,0 +1,3 @@
+[submodule "vineyard"]
+	path = projects/vineyard
+	url = git@github.com:silentorb/vineyard_cpp.git

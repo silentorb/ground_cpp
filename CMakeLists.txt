@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.3)
 enable_language(CXX) # SINCE Compiler/Platform variables do not normally exist before a project command in CMake.
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
-include(cmake-tools/scripts/generator-key.cmake)
+include(../../cmake-tools/scripts/generator-key.cmake)
 
 #set(LOCAL_HEADER 1)
 include(local-config.cmake OPTIONAL)
@@ -17,8 +17,9 @@ else ()
 endif ()
 
 
-include(cmake-tools/cmake-tools.cmake)
+include(../../cmake-tools/cmake-tools.cmake)
 
+add_subdirectory(projects/vineyard)
 add_subdirectory(projects/ground_engine)
 add_subdirectory(projects/ground_cli)
 
