@@ -18,6 +18,7 @@ endif ()
 
 include(../../cmake-tools/cmake-tools.cmake)
 
+add_subdirectory(projects/commoner)
 add_subdirectory(projects/vineyard)
 add_subdirectory(projects/ground_engine)
 add_subdirectory(projects/trellis_json)

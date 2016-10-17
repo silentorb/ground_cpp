@@ -4,3 +4,6 @@
 [submodule "projects/rapidjson"]
 	path = external/rapidjson
 	url = git@github.com:miloyip/rapidjson.git
+[submodule "projects/commoner"]
+	path = projects/commoner
+	url = git@github.com:silentorb/commoner.git
