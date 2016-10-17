@@ -16,11 +16,11 @@ else ()
   set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PARENT_DIR}/build/mingw/bin)
 endif ()
 
-
 include(../../cmake-tools/cmake-tools.cmake)
 
 add_subdirectory(projects/vineyard)
 add_subdirectory(projects/ground_engine)
+add_subdirectory(projects/trellis_json)
 add_subdirectory(projects/ground_cli)
 
 include(local-config.cmake OPTIONAL)

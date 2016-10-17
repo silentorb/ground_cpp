@@ -1,3 +1,6 @@
 [submodule "vineyard"]
 	path = projects/vineyard
 	url = git@github.com:silentorb/vineyard_cpp.git
+[submodule "projects/rapidjson"]
+	path = external/rapidjson
+	url = git@github.com:miloyip/rapidjson.git
